@@ -1,9 +1,9 @@
 function ProductDescription() {
   return(
     <div>
-      <h2>PERFUME</h2>
-      <h1>Gabrielle Essence Eau De Parfum</h1>
-      <p>A floral, solar and voluptuous
+      <p className="card__product-type">PERFUME</p>
+      <p className="card__product-name">Gabrielle Essence Eau De Parfum</p>
+      <p className="card__product-info">A floral, solar and voluptuous
         interpretation composed by Olivier
         Polge, Perfumer-Creator for the House of
         CHANEL.</p>

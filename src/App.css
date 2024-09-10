@@ -12,5 +12,137 @@
   --sans-serif: "Montserrat", sans-serif;
   --serif: "Fraunces", serif;
   --weight1: 700;
-  --weight1: 500;
+  --weight2: 500;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-color: var(--cream);
+  font-family: var(--sans-serif);
+}
+
+.card {
+  background-color: var(--white);
+  width: 340px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__sell{
+  padding: 20px;
+}
+
+.card__product-type {
+  margin: 0;
+  color: var(--dark-grayish-blue);
+  font-size: 11px;
+  font-weight: var(--weight2);
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+
+.card__product-name {
+  margin: 0;
+  font-family: var(--serif);
+  color: var(--very-dark-blue);
+  font-weight: var(--weight1);
+  font-size: 32px;
+  line-height: 32px;
+}
+
+.card__product-info {
+  color: var(--dark-grayish-blue);
+  font-size: var(--p-font-size);
+  font-weight: var(--weight2);
+  line-height: 20px;
+  padding-right: 5px;
+}
+
+.card__price-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card__price {
+  font-family: var(--serif);
+  color: var(--dark-cyan);
+  font-size: 32px;
+  font-weight: var(--weight1);
+  margin-right: 15px;
+}
+
+.card__price-previous {
+  color: var(--dark-grayish-blue);
+  font-size: 11px;
+  font-weight: var(--weight2);
+  text-decoration: line-through;
+}
+
+.card__button {
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  font-size: var(--p-font-size);
+  font-weight: var(--weight1);
+  padding: 15px;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__cart-icon {
+  margin-right: 10px;
+}
+
+@media (min-width: 700px) {
+  .card {
+    display: flex;
+    width: 700px;
+  }
+
+  .card__image {
+    width: 350px;
+    height: 100%;
+  }
+
+  .card__sell {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+  }
+
+  .card__product-type {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .card__product-name {
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  .card__product-info {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .card__button {
+    padding: 20px;
+    font-size: 16px;
+
+  }
 }

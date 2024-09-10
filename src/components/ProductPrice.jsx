@@ -1,8 +1,8 @@
 function ProductPrice() {
   return(
-    <div>
-      <span>$149.99</span>
-      <span>$169.99</span>
+    <div className="card__price-container">
+      <span className="card__price">$149.99</span>
+      <span className="card__price-previous">$169.99</span>
     </div>
   )
 }

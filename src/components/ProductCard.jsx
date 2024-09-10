@@ -3,7 +3,7 @@ import ProductSell from "./ProductSell";
 
 function ProductCard() {
   return (
-    <article>
+    <article className="card">
       <ProductImage/>
       <ProductSell/>
     </article>

@@ -4,7 +4,7 @@ import AddCart from "./AddCart";
 
 function ProductSell() {
   return(
-    <div>
+    <div className="card__sell">
       <ProductDescription/>
       <ProductPrice/>
       <AddCart/>
