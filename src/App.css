@@ -107,6 +107,10 @@ main {
   margin-right: 10px;
 }
 
+.card__button:hover {
+  background-color: var(--very-dark-blue);
+}
+
 @media (min-width: 700px) {
   .card {
     display: flex;
