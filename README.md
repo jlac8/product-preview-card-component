@@ -19,22 +19,19 @@ This is a solution to the **\_\_\_** project of the Make It Real course.
 
 ### The challenge
 
-Users should be able to:
+Sus usuarios deberían poder:
 
-- Task 1
-- Task 2
+Ver el diseño óptimo según el tamaño de pantalla de su dispositivo
+Ver hover y focus para elementos interactivos
 
 ### Screenshot
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
 ## My process
+
+1. Add Semantic HTML
+2. Add global styles
 
 ### Built with
 
