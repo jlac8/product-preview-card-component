@@ -32,6 +32,7 @@ Ver hover y focus para elementos interactivos
 
 1. Add Semantic HTML
 2. Add global styles
+3. Create React Components
 
 ### Built with
 
